@@ -1,3 +1,4 @@
+//‰ÁŽZŠí
 module adder( a, b, c, q);
 
 input	[3:0]	a,b;
