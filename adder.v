@@ -1,5 +1,5 @@
 //‰ÁZŠíƒvƒƒOƒ‰ƒ€
-module adder( a, b, c, q);
+module adder( a, b, q);
 
 input	[3:0]	a,b;
 output	[3:0]	q;
