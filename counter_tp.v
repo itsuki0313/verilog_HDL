@@ -1,7 +1,7 @@
 //1ユニットを1psに設定
 `timescale 1ps/1ps
 
-module count_tp;
+module counter_tp;
 reg		ck, res; //入力をreg宣言
 wire	[3:0]	q;	 //出力をwire宣言
 
