@@ -9,8 +9,8 @@ parameter STEP = 1000;
 
 // クロックの定義
 always begin
-	ck = 0; #(STEP/2)
-	ck = 1; #(STEP/2)
+	ck = 0; #(STEP/2);
+	ck = 1; #(STEP/2);
 end
 
 // 電子サイコロ呼び出し
