@@ -1,8 +1,9 @@
+//1ユニットを1psに設定
 `timescale 1ps/1ps
 
-module counter_tp;
-reg		ck, res;
-wire	[3:0]	q;
+module count_tp;
+reg		ck, res; //入力をreg宣言
+wire	[3:0]	q;	 //出力をwire宣言
 
 parameter STEP = 100000; //1周期　100ns
 

@@ -5,6 +5,8 @@ input		ck, reset, enable;
 output	[6:0]	lamp;
 reg	[2:0]	cnt;
 
+enable = 1;
+
 // 始まりの6進カウンタ
 always @( posedge ck or posedge reset ) begin
 	if ( reset==1'b1 )
